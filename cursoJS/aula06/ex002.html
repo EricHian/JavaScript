@@ -17,9 +17,8 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição </p>
     <script>
-        window.alert('Minha Primeira Mensagem!');
-        window.confirm('Está gostando do curso de JS?'); // Janela com botão ok e cancel
-        window.prompt('Qual é o seu nome?'); // vai perguntar o nome 
+        var nome = window.prompt('Qual é o seu nome?'); // vai perguntar o nome
+        window.alert('É um prazer em te conhecer, ' + nome + '!'); // irá mostrar um alerta, com uma frase. O sinal de + serve para juntar a frase, com o nome. + -> concatenação 
     </script>
 </body>
 </html>

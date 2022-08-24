@@ -17,9 +17,10 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição </p>
     <script>
-        window.alert('Minha Primeira Mensagem!');
-        window.confirm('Está gostando do curso de JS?'); // Janela com botão ok e cancel
-        window.prompt('Qual é o seu nome?'); // vai perguntar o nome 
+        var n1 = Number.parseInt(window.prompt('Digite um número')); // O comando prompt sempre irá retornar uma string
+        var n2 = Number.parseFloat(window.prompt('Digite outro número')); // Int = Número inteiro, Float = Número real, Number = ambos
+        var s =  n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual á ${s}`); // Usa template string
     </script>
 </body>
 </html>
